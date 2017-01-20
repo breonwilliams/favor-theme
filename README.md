@@ -1,1 +1,1 @@
-# favor-theme
+# everypraise-theme
