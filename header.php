@@ -66,13 +66,7 @@
 				<div class="header-mid-area">
 					<div class="container">
 						<div class="row">
-							<div class="col-sm-4">
-								<?php if (is_active_sidebar('header-left')) { ?>
-										<?php dynamic_sidebar('header-left'); ?>
-									<div class="clearfix"></div>
-								<?php } // endif; ?>
-							</div>
-							<div class="col-sm-4 text-center">
+							<div class="col-sm-6">
 								<?php if ( get_theme_mod( 'm2_logo' ) ) : ?>
 									<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="header-logo" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 										<img src="<?php echo get_theme_mod( 'm2_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
@@ -83,8 +77,13 @@
 										<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a>
 									</h1>
 								<?php endif; ?>
+								<?php if (is_active_sidebar('header-left')) { ?>
+										<?php dynamic_sidebar('header-left'); ?>
+									<div class="clearfix"></div>
+								<?php } // endif; ?>
 							</div>
-							<div class="col-sm-4">
+
+							<div class="col-sm-6">
 								<?php if (is_active_sidebar('header-right')) { ?>
 										<?php dynamic_sidebar('header-right'); ?>
 									<div class="clearfix"></div>
