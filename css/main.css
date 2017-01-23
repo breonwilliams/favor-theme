@@ -1570,7 +1570,7 @@ Button
 	background: transparent;
 }
 
-.nav-overlay .navbar-collapse form[role="search"] button[type="submit"] {
+.affix-top.nav-overlay .navbar-collapse form[role="search"] button[type="submit"] {
 	color: #fff;
 }
 
