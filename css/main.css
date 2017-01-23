@@ -1570,6 +1570,10 @@ Button
 	background: transparent;
 }
 
+.nav-overlay .navbar-collapse form[role="search"] button[type="submit"] {
+	color: #fff;
+}
+
 .btn-red:focus,
 .btn-red.focus,
 .btn-red:hover,
