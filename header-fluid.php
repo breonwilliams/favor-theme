@@ -152,7 +152,7 @@
 						</div>
 
 						<div class="collapse navbar-collapse navbar-primary-collapse">
-							<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav navbar-right', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
+							<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
 							<form class="navbar-form navbar-right" role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>">
 								<div class="input-group">
 									<input type="search" class="form-control pull-right" placeholder="<?php echo esc_attr_x('Search &hellip;', 'placeholder', 'bootstrap-basic'); ?>" value="<?php echo esc_attr(get_search_query()); ?>" name="s" title="<?php echo esc_attr_x('Search for:', 'label', 'bootstrap-basic'); ?>">
