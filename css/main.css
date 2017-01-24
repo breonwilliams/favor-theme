@@ -1266,7 +1266,18 @@ nav.affix {
 	}
 
 	.navbar-collapse {
-		background: #1DB4E9;
+		background: #FFF;
+	}
+
+	.navbar-custom.nav-overlay.affix-top .navbar-nav>li>a {
+		color: #243444;
+	}
+
+	.navbar-custom.nav-overlay.affix-top {
+		background: #fff;
+	}
+	.affix-top.nav-overlay .navbar-collapse form[role="search"] button[type="submit"] {
+		color: #243444!important;
 	}
 }
 
