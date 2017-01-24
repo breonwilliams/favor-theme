@@ -1684,7 +1684,7 @@ ul.tags li a:hover,
 .about-caption span,
 .pagination>li>span,
 .pagination>li.active>span{
-	color:#1F6BB0;
+	color:#FF636C;
 }
 
 /*
@@ -1821,7 +1821,7 @@ Hover background color
 .btn-primary:hover,
 .btn-group.open .btn-primary:focus,
 .zoom a:hover {
-	background:#298FEB;
+	background:#1DB4E9;
 }
 
 .btn-primary.active.focus,
@@ -1834,8 +1834,8 @@ Hover background color
 .open>.dropdown-toggle.btn-primary:focus,
 .open>.dropdown-toggle.btn-primary:hover {
 	color: #fff;
-	background-color: #298FEB;
-	border-color: #298FEB;
+	background-color: #1DB4E9;
+	border-color: #1DB4E9;
 }
 
 /*
@@ -1844,7 +1844,7 @@ Hover border color
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary:hover {
-	border-color:#298FEB;
+	border-color:#1DB4E9;
 }
 
 /* Tabs */
