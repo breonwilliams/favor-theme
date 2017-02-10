@@ -36,6 +36,7 @@
 							</div>
 							<div class="col-md-6 footer-right text-right">
 								<?php wp_nav_menu(array('theme_location' => 'footer', 'container' => false, 'items_wrap' => '<ul class="foot-menu">%3$s</ul>')); ?>
+								<div class="clearfix"></div>
 								<?php dynamic_sidebar('footer-right'); ?>
 							</div>
 						</div>
