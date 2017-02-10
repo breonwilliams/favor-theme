@@ -32,10 +32,11 @@
 								<?php } else { ?>
 									<small>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></small>
 								<?php } ?>
+								<?php dynamic_sidebar('footer-left'); ?>
 							</div>
 							<div class="col-md-6 footer-right text-right">
-								<?php dynamic_sidebar('footer-right'); ?>
 								<?php wp_nav_menu(array('theme_location' => 'footer', 'container' => false, 'items_wrap' => '<ul class="foot-menu">%3$s</ul>')); ?>
+								<?php dynamic_sidebar('footer-right'); ?>
 							</div>
 						</div>
 					</div>
