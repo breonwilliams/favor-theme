@@ -396,7 +396,7 @@ function the_breadcrumb() {
 
 	} else {
 
-		echo '<section class="section-grey"><div class="container"><div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#">';
+		echo '<section class="section-grey breadcrumbs-wrap"><div class="container"><div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#">';
 		if ($show_home_link == 1) {
 			echo '<a href="' . $home_link . '" rel="v:url" property="v:title">' . $text['home'] . '</a>';
 			if ($frontpage_id == 0 || $parent_id != $frontpage_id) echo $delimiter;
